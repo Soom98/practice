@@ -1,0 +1,28 @@
+프로젝트 주제 및 개요: 비만도 예측 모델링을 통한 한국과 서양권 국가들 간에 비만도에 영향을 주는 요인 분석
+● 분석 방향
+1. 서양권의 데이터를 바탕으로 EDA 진행 및 비만 예측 모델 형성 및 분석 결과 도출 후 분석 방향 확정
+-	두 지역간의 비교 분석을 위한 최종 피처 선정
+2. 서양권 데이터와 매칭되는 한국 데이터를 바탕으로 EDA 진행 및 비만 예측 모델 형성 및 최종 모델 선정
+3. 최종 선정된 피처를 바탕으로 서양권 비만 예측 모델 형성 및 최종 모델 선정
+4. 두 지역간의 비교 분석 및 향후 제언
+
+● 활용 데이터
+1. 캐글 비만 데이터셋
+-	https://www.kaggle.com/competitions/playground-series-s4e2/data
+2. 국민건강영양조사 원시자료(2021, 2022)
+-	https://knhanes.kdca.go.kr/knhanes/sub03/sub03_02_05.do
+
+● 분석 도구 및 기술(모델)
+DecisionTree, RandomForest, GBM, XGBoost, LGBM, Logistic Regression 
+
+
+● 역할분담
+- 공통: 데이터 전처리, 시각화 및 EDA
+- 개별: 모델링(1차, 2차, 3차), 포트폴리오 제작 및 발표 준비
+-	1차 :  캐글 데이터 1차 분석 
+최수민(Decision Tree, RandomForest), 한승주(XGBoost), 김은아(GBM, LGBM), 권익태(Logistic Regression)
+-	2차 :  한국 데이터 분석 
+권익태(Decision Tree, RandomForest), 최수민(XGBoost), 한승주(GBM,LGBM), 김은아(Logistic Regression)
+-	3차 : 캐글 데이터 2차 분석 
+권익태(Decision Tree, RandomForest), 최수민(XGBoost), 한승주(GBM, LGBM), 김은아(Logistic Regression)
+- 발표 : 초안 작성-최수민, 시각화자료&PPT-한승주,김은아, 발표자-권익태
