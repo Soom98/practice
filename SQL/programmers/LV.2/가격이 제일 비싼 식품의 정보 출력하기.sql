@@ -1,0 +1,9 @@
+SELECT PRODUCT_ID,PRODUCT_NAME,PRODUCT_CD,CATEGORY,MAX(PRICE) AS PRICE
+FROM FOOD_PRODUCT
+WHERE PRICE = (SELECT MAX(PRICE) FROM FOOD_PRODUCT)
+# MAX(PRICE) AS PRICE 가 틀리는 이유
+#틀린 이유:
+#PRODUCTID, PRODUCTNAME, PRODUCT_CD, CATEGORY 는 해당 값과 동일한 값이 출력되는데
+#MAX(PRICE)는 최대값인 가격만 따로 출력됨
+#즉, 상품 내용과 가격이 다른 값이 출력 됨
+#최대 가격을 뽑아내고 그 가격에 맞는 값들을 출력해야 됨
