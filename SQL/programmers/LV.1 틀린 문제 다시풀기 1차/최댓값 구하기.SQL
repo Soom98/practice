@@ -1,0 +1,4 @@
+SELECT DATETIME
+FROM ANIMAL_INS 
+ORDER BY DATETIME DESC
+LIMIT 1; # 정답예시 화면에 1행만 보여줬으니 나도 1행만 보여줘야함.
