@@ -1,0 +1,2 @@
+SELECT CONCAT(MAX(LENGTH),'cm') AS MAX_LENGTH #  CONCAT 함수는 문자열을 이어붙이는 데 사용
+FROM FISH_INFO
