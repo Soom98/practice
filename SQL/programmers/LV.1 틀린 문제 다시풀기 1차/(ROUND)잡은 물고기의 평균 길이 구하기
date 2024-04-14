@@ -1,0 +1,2 @@
+SELECT ROUND(AVG(IFNULL(LENGTH,10)),2) AS AVERAGE_LENGTH # 소수점 N번째자리에서 반올림하라고 하면 -1 해주면 된다
+FROM FISH_INFO
